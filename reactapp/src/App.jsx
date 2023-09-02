@@ -10,7 +10,6 @@ function App() {
       <Navbar/>
      <div className="content">
       <Home/>
-      <div>{House}</div>
      </div>
     </div>
   )
