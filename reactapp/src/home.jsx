@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div className="home">
-        <Bloglist propblogs={blogs} title = 'All Blogs!'/>
+        <Bloglist blogs={blogs} title = 'All Blogs!'/>
     </div>
   );
 };
