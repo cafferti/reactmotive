@@ -25,7 +25,7 @@ const handlesubmit = (e) =>{
 
    history.push(`/`)
 }
-
+  
   return (
     <div className="create">
       <h2>Add new Blog</h2>
@@ -48,6 +48,14 @@ const handlesubmit = (e) =>{
         onChange={(e) => setAuthor(e.target.value) }>
             <option value= "mario" >mario</option>
             <option  value= "yoshi" >Yoshi</option>
+            <option value= " Harper Lee" > Harper Lee</option>
+            <option  value= "George Orwell" > George Orwell</option>
+            <option value= "Jane Austen" >Jane Austen</option>
+            <option  value= "F. Scott Fitzgerald" >YF. Scott Fitzgerald</option>
+            <option  value= "J.D. Salinger" >J.D. Salinger</option>
+
+    
+
         </select>
         {!isPending &&   <button>Add button</button>}
         {isPending &&   <button> Adding blog.....</button>}

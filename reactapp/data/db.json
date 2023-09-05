@@ -1,40 +1,34 @@
 {
   "blogs": [
     {
-      "title": "My First Blog",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "author": "mario",
+      "title": "To Kill a Mockingbird",
+      "body": "In the racially segregated American South of the 1930s, \"To Kill a Mockingbird\" weaves a compelling narrative around the Finch family. Jean Louise \"Scout\" Finch, her brother Jem, and their father, Atticus Finch, form the core of the story. Atticus, a principled lawyer, defends Tom Robinson, a black man falsely accused of raping a white woman. Through Scout's youthful eyes, we witness the deeply ingrained racism, social injustice, and moral dilemmas of Maycomb, Alabama. The novel explores themes of empathy, moral growth, and the loss of innocence, with Boo Radley, the reclusive neighbor, serving as a poignant symbol of misunderstood goodness.",
+      "author": " Harper Lee",
       "id": 1
     },
     {
-      "title": "Opening Party!",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      "author": "yoshi",
+      "title": "The Catcher in the Rye",
+      "body": "Narrated by the troubled teenager Holden Caulfield, \"The Catcher in the Rye\" takes us on a journey through Holden's world, marked by alienation and a search for authenticity. After being expelled from an elite prep school, Holden wanders through New York City, encountering various characters and reflecting on his past. He's haunted by the idea of being the \"catcher in the rye,\" saving children from falling off a cliff and losing their innocence. Holden's struggles with hypocrisy, phoniness, and the loss of his younger brother, Allie, form the core of the novel. J.D. Salinger's portrayal of youthful angst and identity crisis has made \"The Catcher in the Rye\" a timeless classic that resonates with generations of readers.\n\n\n\n\n",
+      "author": "mario",
       "id": 2
     },
     {
-      "title": "first Title",
-      "body": "lorem ipsum i need to marry",
-      "author": "mario",
+      "title": "1984",
+      "body": "Set in a dystopian world under the oppressive regime of Big Brother, \"1984\" introduces us to Winston Smith, a low-ranking member of the Party. Winston's life is marked by constant surveillance, manipulation of truth, and the erasure of individuality. He becomes a reluctant rebel, engaging in a forbidden love affair with Julia and reading a forbidden book that challenges the Party's doctrines. Orwell's chilling portrayal of totalitarianism and thought control serves as a stark warning against the dangers of government overreach, propaganda, and the loss of personal freedom. The novel's grim conclusion leaves readers with a haunting sense of despair and the fragility of truth.\n\n",
+      "author": "George Orwell",
       "id": 3
     },
     {
-      "title": "new blog",
-      "body": "lorem postum eclair",
-      "author": "yoshi",
+      "title": "Pride and Prejudice",
+      "body": "Set in a dystopian world under the oppressive regime of Big Brother, \"1984\" introduces us to Winston Smith, a low-ranking member of the Party. Winston's life is marked by constant surveillance, manipulation of truth, and the erasure of individuality. He becomes a reluctant rebel, engaging in a forbidden love affair with Julia and reading a forbidden book that challenges the Party's doctrines. Orwell's chilling portrayal of totalitarianism and thought control serves as a stark warning against the dangers of government overreach, propaganda, and the loss of personal freedom. The novel's grim conclusion leaves readers with a haunting sense of despair and the fragility of truth.\n\n",
+      "author": "mario",
       "id": 4
     },
     {
-      "title": "   ",
-      "body": "    ",
-      "author": "mario",
+      "title": "The Great Gatsby",
+      "body": "In the dazzling world of 1920s New York, F. Scott Fitzgerald's \"The Great Gatsby\" introduces us to the enigmatic millionaire Jay Gatsby and his infatuation with Daisy Buchanan, a married woman. Narrated by Nick Carraway, the story explores themes of wealth, decadence, illusion, and the American Dream. Gatsby's extravagant parties serve as a backdrop to a tragic love story marked by deceit and longing. Fitzgerald's prose paints a vivid picture of the Jazz Age, where moral decay and superficiality run rampant. \"The Great Gatsby\" remains a symbol of the pursuit of an elusive dream, often ending in disillusionment and tragedy.\n\n",
+      "author": "F. Scott Fitzgerald",
       "id": 5
-    },
-    {
-      "title": "teefat",
-      "body": "s://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Quicksand:wght@400;500;600;700&display=swap net::ERR",
-      "author": "mario",
-      "id": 6
     }
   ]
 }
