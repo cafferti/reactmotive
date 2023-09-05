@@ -5,8 +5,7 @@ const Home = () => {
 const {fresult:blogs, isPending, error} =usefetch("http://localhost:8000/blogs")
 
   return (
-    <div className="home">
-        
+    <div className="home"> 
       {error && <div>{error}</div>}
       {isPending && <div>loading....</div>}
       {blogs && <Bloglist blogs={blogs} title="All Blogs!" />}
