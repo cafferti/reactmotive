@@ -5,10 +5,16 @@ const [title, setTitle] = useState('')
 const [body, setBody] = useState('')
 const [author, setAuthor] = useState('mario')
 
+const handlesubmit = (e) =>{
+   e.preventDefault()
+   const blog = {title, body, author}
+   console.log(blog)
+}
+
   return (
     <div className="create">
       <h2>Add new Blog</h2>
-      <form>
+      <form onSubmit={handlesubmit} >
         <label> Blog Details</label>
         <input type="text"
          required 
@@ -29,9 +35,6 @@ const [author, setAuthor] = useState('mario')
             <option  value= "yoshi" >Yoshi</option>
         </select>
         <button>Add button</button>
-        <p>{title}</p>
-        <p>{body}</p>
-        <p>{author}</p>
       </form>
     </div>
   );
