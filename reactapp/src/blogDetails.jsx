@@ -5,7 +5,7 @@ import usefetch  from "./usefetch";
 
 const blogDetails = () => { useParams
     const { id } = useParams()
-    const {fresult:blog , error, isPending} = usefetch("http://localhost:8000/blogs" + id)
+    const {fresult:blog , error, isPending} = usefetch("http://localhost:8000/blogs/" + id)
     return ( 
         <div className="blogDetails">
             {isPending && <div>loading...</div>}
