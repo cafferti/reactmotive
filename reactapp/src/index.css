@@ -95,7 +95,7 @@
   cursor: pointer;
 }
 
-.blogDetails button{
+.blogDetails button, .not-found button{
   background: #f1356d;
   color: #ddd;
   border: 0;
@@ -103,6 +103,10 @@
   border-radius: 8px;
   cursor: pointer;
 
+}
+.not-found button a{
+  text-decoration: none;
+   color: white;
 }
 
 

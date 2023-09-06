@@ -18,8 +18,9 @@ import { useEffect, useState } from "react";
         .then((data) => {
           console.log(data);
           setFresult(data);
-          setPending(false);
           setError(null);
+          setPending(false);
+
         })
         .catch((error) => {
           setError(error.message);
