@@ -89,16 +89,49 @@ hr{
 }
 
 .part1{
-  width: 50%;
+  width: 120%;
   padding-top: 4%;
 }
 
 .part2{
-  width:50%;
-  padding-left: 30%;
+  /* padding-left: 30%; */
 
 }
 
 .marslogo{
   padding-bottom: 30%;
 }
+
+.nestednav{
+  padding-left: 40%;
+  text-decoration: none;
+
+}
+
+.nav ul {
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 60%;
+  margin-bottom: 2rem;
+
+}
+.nav ul li{
+  padding-block: 0.8rem;
+  cursor: pointer;
+}
+.navcontain{
+  padding-left: 30%;
+  margin-top: 15%;
+}
+
+.distancetime{
+  border-top: solid rgb(77, 70, 70) 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20%;
+  padding-top: 1.5rem;
+  margin-top: 50px;
+}
+
