@@ -22,7 +22,9 @@ body{
   color: white;
 }
 
-.links p{
+.links a{
+  color: white;
+  text-decoration: none;
   margin-block: 0px;
   padding-block: 1rem;
 }
@@ -45,7 +47,7 @@ body{
   font-weight:100;
 }
 
-.activehome{
+.active{
   border-bottom: 2px solid rgb(247, 240, 240);
 }
 
@@ -54,10 +56,7 @@ body{
 }
 .div{
   margin: -8px;
-  background-image:url("../public/assets/home/background-home-desktop.jpg") ;
-  background-position: center;  
-  background-size: cover;
-  height: 100vh;
+  height: 60vh;
 }
 
 

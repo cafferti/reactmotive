@@ -4,8 +4,6 @@ import Navbar from "./Navbar";
 const Explore = () => {
   return (
     <div className="div">
-        <Navbar/>
-        
     <div className="homepage">
       <div className="hometext" >
         <h2> So, you want to travel to</h2>
