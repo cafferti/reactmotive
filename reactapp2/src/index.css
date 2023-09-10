@@ -93,6 +93,10 @@ hr{
   padding-top: 4%;
 }
 
+.part1 h1{
+  margin-bottom: 15%;
+}
+
 .part2{
 height: fit-content;
 }
@@ -114,7 +118,7 @@ height: fit-content;
   width: fit-content;
   justify-content: space-between;
   align-items: end;
-  margin-left: 65%;
+  margin-left: 27%;
   padding-top: 70px  ;
 
  }
