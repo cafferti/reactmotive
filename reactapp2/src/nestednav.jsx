@@ -1,29 +1,27 @@
+import Marsintro from "./Marsintro";
+import Marsstats from "./Marsstats";
 import React, { useState } from 'react';
 
 const NestedNav = () => {
-  // State to track the active item
   const [activeItem, setActiveItem] = useState('Mars');
-
-  // Function to handle item click
   const handleItemClick = (item) => {
     setActiveItem(item);
   };
 
-  // Define the items
-  const items = ['Moon', 'Mars', 'Europa', 'Titans'];
+const items = ['Moon', 'Mars', 'Europa', 'Titans'];
 
   return (
     <div className="nav">
       <ul>
-        {items.map((item) => (
-          <li
-            key={item}
-            onClick={() => handleItemClick(item)}
-            className={activeItem === item ? 'active' : ''}
-          >
-            {item}
+        {items.map((item) => ( <li key={item} onClick={() => handleItemClick(item)} className={activeItem === item ? 'active' : ''}> {item}
           </li>
         ))}
+        {       <div className="descontainer">
+        <div className="part1"> <Marsintro/></div>
+        <div className="navcontain">
+        <div className="part2"><Marsstats/></div>
+        </div>
+      </div>}
       </ul>
     </div>
   );

@@ -108,23 +108,20 @@ hr{
 
 }
 
-.nav ul {
+/* .nav ul {
   padding: 0px;
   display: flex;
   list-style: none;
   justify-content: space-between;
   width: 60%;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; */
 
-}
+/* } */
 .nav ul li{
   padding-block: 0.8rem;
   cursor: pointer;
 }
-.navcontain{
-  padding-left: 30%;
-  margin-top: 15%;
-}
+
 
 .distancetime{
   border-top: solid rgb(77, 70, 70) 1px;
