@@ -6,12 +6,9 @@ const Destination = () => {
   return (
     
        <div className="descontainer">
-        {/* <div className="part1"> <Marsintro/></div> */}
-        <div className="navcontain">
-            <div><Nestednav/></div>
-        {/* <div className="part2"><Marsstats/></div> */}
+        <Nestednav/>
         </div>
-      </div>
+      
   );
 };
 
