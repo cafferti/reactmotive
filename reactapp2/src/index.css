@@ -94,7 +94,7 @@ hr{
 }
 
 .part2{
-
+height: fit-content;
 }
 
 .marslogo{
@@ -113,6 +113,9 @@ hr{
   list-style: none;
   width: fit-content;
   justify-content: space-between;
+  align-items: end;
+  margin-left: 65%;
+  padding-top: 70px  ;
 
  }
 .nav ul li{
@@ -136,6 +139,10 @@ hr{
 
 .marsintrocon{
   padding-left: 30%;
-  margin-top: 30%;
+  /* margin-top: 25%; */
+}
+.marsintrocon h1{
+  font-size: 70px;
+  font-weight: lighter;
 }
 
