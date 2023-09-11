@@ -1,5 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body{
   margin: none;
+  /* overflow: hidden; */
 }
 .navbar{
   display: flex;
@@ -16,7 +22,7 @@ body{
   border-radius: 10px 0px 0px 10px;
   opacity: 0.7;
   display: flex;
-  width: 40%;
+  width: 60%;
   justify-content: space-around;
   padding-right: 5%;
   color: white;
@@ -54,10 +60,7 @@ body{
 .hometext{
   width: 50%;
 }
-.div{
-  margin: -8px;
-  height: 55vh;
-}
+
 
 
 hr{
@@ -66,7 +69,7 @@ hr{
   height: 0.1px;
   opacity:0.3 ;
   margin-top: 1.5rem;
-  margin-right: -2rem;
+  margin-right: -5rem;
 }
 
 .explore{
@@ -94,15 +97,17 @@ hr{
 }
 
 .part1 h1{
-  margin-bottom: 15%;
+  padding-top: 10%;
 }
 
 .part2{
+  margin-top: 10%;
+
 height: fit-content;
 }
 
 .marslogo{
-  /* padding-bottom: 30%; */
+  padding-bottom: 15%;
 }
 
 .nestednav{
@@ -149,4 +154,56 @@ height: fit-content;
   font-size: 70px;
   font-weight: lighter;
 }
+
+.crew{
+  color: white;
+  height: 85vh;
+  padding-inline: 10%;
+}
+
+.crewmember{
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  height: 70%;
+}
+
+.App{
+  height: 100vh;
+}
+
+.crewmember > *{
+  width: 50%;
+}
+.crewmember  h2{
+  color: rgb(58, 83, 104);
+  text-transform: uppercase;
+  padding-block: 1rem;
+}
+
+.crewmember h1{
+  padding-block: 1rem;
+  font-weight:lighter;
+  font-size: 50px;
+  color: rgb(128, 130, 131);
+}
+
+.crewmember p{
+padding-right: 10%;
+color: rgb(228, 243, 238);
+}
+
+.crew{
+  margin-top: 3.5%;
+}
+
+.crewimg img{
+  bottom: 40px;
+  
+}
+
+.crewimg{
+  padding-left: 10%;
+}
+
 

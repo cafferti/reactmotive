@@ -18,8 +18,8 @@ const Navbar = () => {
             <div className="links" >
              <Link to={"/"} className={active("/")} ><span>00</span> Home</Link>
              <Link to={"/des"} className={active("/des")} > <span>01</span> Destination</Link>
-             <Link to={"/crew"} > <span>02</span> Crew</Link>
-             <Link to={"/tech"} ><span>03</span> Technology</Link>
+             <Link to={"/crew"} className={active("/crew")}  > <span>02</span> Crew</Link>
+             <Link to={"/tech"} className={active("/tech")} ><span>03</span> Technology</Link>
             </div>
         </div>
      );
