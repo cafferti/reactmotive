@@ -6,7 +6,6 @@ import specialimg from "../public/assets/crew/image-mark-shuttleworth.png";
 import { useState } from "react";
 
 const Crew = () => {
-  const [activeindex, Setactiveindex] = useState(0);
   const crewmembers = [
     {
       Role: "Commander",
