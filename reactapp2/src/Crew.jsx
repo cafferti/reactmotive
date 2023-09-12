@@ -3,8 +3,10 @@ import commanderimg from "../public/assets/crew/image-douglas-hurley.webp";
 import engineerimg from "../public/assets/crew/image-anousheh-ansari.webp";
 import pilotimg from "../public/assets/crew/image-victor-glover.webp";
 import specialimg from "../public/assets/crew/image-mark-shuttleworth.png";
+import { useState } from "react";
 
 const Crew = () => {
+  const [activeindex, Setactiveindex] = useState(0);
   const crewmembers = [
     {
       Role: "Commander",
@@ -38,7 +40,10 @@ const Crew = () => {
 
   return (
     <div className="carousel">
-      <div className="crew">
+      <div
+        className="crew"
+        style={{ transform: `translate(-${activeindex * 100})` }}
+      >
         <h1>02 MEET YOUR CREW</h1>
 
         {crewmembers.map((crewmember, index) => {

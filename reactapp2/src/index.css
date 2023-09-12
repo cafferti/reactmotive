@@ -162,7 +162,7 @@ height: fit-content;
 }
 
 .crewmember{
-  display: flex;
+  display: inline-block;
   margin-top: 5%;
   align-items: center;
   height: 70%;
@@ -171,39 +171,4 @@ height: fit-content;
 .App{
   height: 100vh;
 }
-
-.crewmember > *{
-  width: 50%;
-}
-.crewmember  h2{
-  color: rgb(58, 83, 104);
-  text-transform: uppercase;
-  padding-block: 1rem;
-}
-
-.crewmember h1{
-  padding-block: 1rem;
-  font-weight:lighter;
-  font-size: 50px;
-  color: rgb(128, 130, 131);
-}
-
-.crewmember p{
-padding-right: 10%;
-color: rgb(228, 243, 238);
-}
-
-.crew{
-  margin-top: 3.5%;
-}
-
-.crewimg img{
-  bottom: 40px;
-  
-}
-
-.crewimg{
-  padding-left: 10%;
-}
-
 
