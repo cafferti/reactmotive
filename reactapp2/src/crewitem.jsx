@@ -1,6 +1,6 @@
 const Carouselitem = ({ crewmember }) => {
   return (
-    <div className="crewmember">
+    <div>
       <h2>{crewmember.Role}</h2>
       <h1>{crewmember.Name}</h1>
       <p>{crewmember.About}</p>

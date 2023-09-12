@@ -1,4 +1,4 @@
-import Carouselitem from "./Carauselitems";
+import Carouselitem from "./crewitem";
 import commanderimg from "../public/assets/crew/image-douglas-hurley.webp";
 import engineerimg from "../public/assets/crew/image-anousheh-ansari.webp";
 import pilotimg from "../public/assets/crew/image-victor-glover.webp";
@@ -38,14 +38,14 @@ const Crew = () => {
   ];
 
   return (
-    <div className="carousel">
+    <div>
       <h1>02 MEET YOUR CREW</h1>
 
       {crewmembers.map((crewmember, index) => {
         return <Carouselitem key={index} crewmember={crewmember} />;
       })}
 
-      <div className="btn">
+      <div>
         <button>Next</button>
         <button>Previous</button>
       </div>
