@@ -40,20 +40,15 @@ const Crew = () => {
 
   return (
     <div className="carousel">
-      <div
-        className="crew"
-        style={{ transform: `translate(-${activeindex * 100})` }}
-      >
-        <h1>02 MEET YOUR CREW</h1>
+      <h1>02 MEET YOUR CREW</h1>
 
-        {crewmembers.map((crewmember, index) => {
-          return <Carouselitem key={index} crewmember={crewmember} />;
-        })}
+      {crewmembers.map((crewmember, index) => {
+        return <Carouselitem key={index} crewmember={crewmember} />;
+      })}
 
-        <div className="btn">
-          <button>Next</button>
-          <button>Previous</button>
-        </div>
+      <div className="btn">
+        <button>Next</button>
+        <button>Previous</button>
       </div>
     </div>
   );
