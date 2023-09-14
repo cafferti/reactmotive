@@ -2,7 +2,7 @@ import Carouselitem from "./crewitem";
 import commanderimg from "../public/assets/crew/image-douglas-hurley.webp";
 import engineerimg from "../public/assets/crew/image-anousheh-ansari.webp";
 import pilotimg from "../public/assets/crew/image-victor-glover.webp";
-import specialimg from "../public/assets/crew/image-mark-shuttleworth.png";
+import specialimg from "../public/assets/crew/image-mark-shuttleworth.webp";
 import { useState } from "react";
 
 const Crew = () => {
@@ -26,7 +26,7 @@ const Crew = () => {
       Name: " Victor Glover",
       About:
         "     Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ",
-      img: { pilotimg },
+      img: pilotimg ,
     },
     {
       Role: " Mission Specialist",
@@ -40,11 +40,7 @@ const Crew = () => {
   return (
     <div>
       <h1>02 MEET YOUR CREW</h1>
-
-      {crewmembers.map((crewmember, index) => {
-        return <Carouselitem key={index} crewmember={crewmember} />;
-      })}
-
+         <Carouselitem  crewmember={crewmembers} />;
       <div>
         <button>Next</button>
         <button>Previous</button>
