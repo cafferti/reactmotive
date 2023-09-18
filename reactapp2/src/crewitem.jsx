@@ -4,6 +4,7 @@ const Carouselitem = ({ crewmember }) => {
 
   const [activecrew, Setactivecrew] = useState(0)
   const [activeclass, Setactiveclass] = useState('')
+  const sipe = 'sipe'
 
 
 const swipeclass = () =>{
@@ -15,7 +16,7 @@ const swipeclass = () =>{
 
 useEffect(() =>{
  const intervalid = setInterval(() =>{
-    swipeclass()
+  swipeclass()
     if( activecrew < crewmember.length -1){
       Setactiveclass('')
 
@@ -23,9 +24,10 @@ useEffect(() =>{
     }else if(activecrew === crewmember.length -1){
       Setactiveclass('')
       Setactivecrew(0)
+
     }
   }, 3000)
-
+  
 
   return () =>(
     clearInterval(intervalid)
@@ -36,10 +38,12 @@ useEffect(() =>{
 
 
   return (
-    <div className={activeclass}>
+    <div className={`${activeclass} ${sipe}`}>
+      <div className="about">
       <h2>{crewmember[activecrew].Role}</h2>
       <h1>{crewmember[activecrew].Name}</h1>
       <p>{crewmember[activecrew].About}</p>
+      </div>
       <img src={crewmember[activecrew].img} alt="" width={350} />
     </div>
   );

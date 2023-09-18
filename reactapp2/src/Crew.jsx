@@ -38,7 +38,7 @@ const Crew = () => {
   ];
 
   return (
-    <div>
+    <div className="crewrender">
       <h1>02 MEET YOUR CREW</h1>
          <Carouselitem  crewmember={crewmembers} />;
       <div>

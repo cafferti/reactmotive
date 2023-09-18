@@ -173,9 +173,6 @@ height: fit-content;
 }
 
 .swipe{
-  display: flex;
-  height: 300px;
-  position: relative;
   animation: heading;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -187,3 +184,15 @@ height: fit-content;
   100%{left: -100%;}
 }
 
+.sipe{
+  height: 300px;
+
+  position: relative;
+color: white;
+display: flex;
+margin-top: 150px;
+}
+.crewrender{
+  margin-inline: 10%;
+  color: aliceblue;
+}
