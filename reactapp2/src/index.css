@@ -172,3 +172,18 @@ height: fit-content;
   height: 100vh;
 }
 
+.swipe{
+  display: flex;
+  height: 300px;
+  position: relative;
+  animation: heading;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+@keyframes heading{
+  0%{left: -100px;}
+  100%{left: -100%;}
+}
+
