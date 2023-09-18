@@ -42,8 +42,10 @@ const Crew = () => {
       <h1>02 MEET YOUR CREW</h1>
          <Carouselitem  crewmember={crewmembers} />;
       <div>
-        <button>Next</button>
-        <button>Previous</button>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
       </div>
     </div>
   );

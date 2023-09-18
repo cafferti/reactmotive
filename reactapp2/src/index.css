@@ -181,7 +181,7 @@ height: fit-content;
 
 @keyframes heading{
   0%{left: -100px;}
-  100%{left: -100%;}
+  100%{left: -120%;}
 }
 
 .sipe{
@@ -190,7 +190,7 @@ height: fit-content;
   position: relative;
 color: white;
 display: flex;
-margin-top: 150px;
+margin-top: 125px;
 }
 .crewrender{
   margin-inline: 10%;

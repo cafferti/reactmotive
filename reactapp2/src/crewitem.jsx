@@ -11,22 +11,22 @@ const swipeclass = () =>{
  const ourin = setInterval(() =>{
     Setactiveclass('swipe')
 
-  }, 3000)
+  }, 4850)
+  return ourin
 }
 
-useEffect(() =>{
+useEffect((ourin) =>{
  const intervalid = setInterval(() =>{
   swipeclass()
     if( activecrew < crewmember.length -1){
       Setactiveclass('')
-
       Setactivecrew(activecrew + 1)
     }else if(activecrew === crewmember.length -1){
       Setactiveclass('')
       Setactivecrew(0)
-
     }
-  }, 3000)
+    clearInterval(ourin)
+  }, 5000)
   
 
   return () =>(
@@ -44,7 +44,7 @@ useEffect(() =>{
       <h1>{crewmember[activecrew].Name}</h1>
       <p>{crewmember[activecrew].About}</p>
       </div>
-      <img src={crewmember[activecrew].img} alt="" width={350} />
+      <img src={crewmember[activecrew].img} alt="" width={350} height={400} />
     </div>
   );
 };
