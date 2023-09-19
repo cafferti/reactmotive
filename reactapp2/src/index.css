@@ -1,24 +1,29 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
 }
 
-body{
+body {
   margin: none;
   /* overflow: hidden; */
 }
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
 }
-.navbar img{
+.navbar img {
   margin-left: 2rem;
 }
-.links{
+.links {
   padding-left: 4rem;
   backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
-  background-color: rgba(223, 218, 218, 0.3); /* Add a semi-transparent background color to the blurred area */
+  background-color: rgba(
+    223,
+    218,
+    218,
+    0.3
+  ); /* Add a semi-transparent background color to the blurred area */
   border-radius: 10px 0px 0px 10px;
   opacity: 0.7;
   display: flex;
@@ -28,51 +33,49 @@ body{
   color: white;
 }
 
-.links a{
+.links a {
   color: white;
   text-decoration: none;
   margin-block: 0px;
   padding-block: 1rem;
 }
-.links span{
+.links span {
   font-weight: bolder;
   color: white;
   opacity: 1;
   margin-right: 5px;
 }
 
-.homepage{
+.homepage {
   color: white;
   display: flex;
   margin-top: 200px;
   margin-inline: 15%;
 }
-.hometext h1{
+.hometext h1 {
   font-size: 100px;
   margin-block: 0rem;
-  font-weight:100;
+  font-weight: 100;
 }
 
-.active{
+.active {
   border-bottom: 2px solid rgb(247, 240, 240);
 }
 
-.hometext{
+.hometext {
   width: 50%;
 }
 
-
-
-hr{
+hr {
   color: rgb(39, 36, 36);
   width: 550px;
   height: 0.1px;
-  opacity:0.3 ;
+  opacity: 0.3;
   margin-top: 1.5rem;
   margin-right: -5rem;
 }
 
-.explore{
+.explore {
   background-color: white;
   font-weight: normal;
   font-size: 20px;
@@ -84,36 +87,35 @@ hr{
   border-radius: 1000rem;
 }
 
-.descontainer{
+.descontainer {
   color: white;
   display: flex;
   height: 85vh;
   margin-inline: 10%;
 }
 
-.part1{
+.part1 {
   width: 120%;
   padding-top: 4%;
 }
 
-.part1 h1{
+.part1 h1 {
   padding-top: 10%;
 }
 
-.part2{
+.part2 {
   margin-top: 10%;
 
-height: fit-content;
+  height: fit-content;
 }
 
-.marslogo{
+.marslogo {
   padding-bottom: 15%;
 }
 
-.nestednav{
+.nestednav {
   padding-left: 40%;
   text-decoration: none;
-
 }
 
 .nav ul {
@@ -124,17 +126,15 @@ height: fit-content;
   justify-content: space-between;
   align-items: end;
   margin-left: 27%;
-  padding-top: 70px  ;
-
- }
-.nav ul li{
+  padding-top: 70px;
+}
+.nav ul li {
   padding-block: 0.8rem;
   cursor: pointer;
   margin-inline: 1rem;
 }
 
-
-.distancetime{
+.distancetime {
   border-top: solid rgb(77, 70, 70) 1px;
   display: flex;
   justify-content: space-between;
@@ -142,57 +142,121 @@ height: fit-content;
   padding-top: 1.5rem;
   margin-top: 50px;
 }
-.marsabout{
+.marsabout {
   display: flex;
 }
 
-.marsintrocon{
+.marsintrocon {
   padding-left: 30%;
   /* margin-top: 25%; */
 }
-.marsintrocon h1{
+.marsintrocon h1 {
   font-size: 70px;
   font-weight: lighter;
 }
 
-.crew{
+.crew {
   color: white;
   height: 85vh;
   padding-inline: 10%;
 }
 
-.crewmember{
+.crewmember {
   display: inline-block;
   margin-top: 5%;
   align-items: center;
   height: 70%;
 }
 
-.App{
+.App {
   height: 100vh;
+  overflow: hidden;
+
 }
 
-.swipe{
+.swipe {
   animation: heading;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   color: white;
 }
 
-@keyframes heading{
-  0%{left: -100px;}
-  100%{left: -120%;}
+@keyframes heading {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: -120%;
+  }
 }
 
-.sipe{
+.sipe {
   height: 300px;
-
   position: relative;
-color: white;
-display: flex;
-margin-top: 125px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
 }
-.crewrender{
+.crewrender {
+
   margin-inline: 10%;
   color: aliceblue;
+  margin-top: 5%;
+}
+
+.slide {
+  animation: slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  color: white;
+}
+@keyframes slide {
+  0% {
+    right: -120%;
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 2;
+  }
+}
+
+.about{
+  width: 50%;
+}
+.about h1{
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  padding-block: 2rem;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.about h2{
+  opacity: 0.5;
+
+  text-transform: uppercase;
+}
+
+.about p{
+  line-height: 2rem;
+  padding-inline-end: 9rem;
+  opacity: 0.6;
+}
+.sipe img{
+  position: relative;
+  top: -20px;
+}
+
+.espan{
+ padding: 0.2rem;
+ background-color: white;
+ margin-inline: 1rem;
+ border-radius: 1rem;
+ z-index: 1;
+ opacity: 0.3;
+}
+
+.activeespan{
+  opacity: 1;
 }

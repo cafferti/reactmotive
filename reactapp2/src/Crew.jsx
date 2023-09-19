@@ -3,9 +3,24 @@ import commanderimg from "../public/assets/crew/image-douglas-hurley.webp";
 import engineerimg from "../public/assets/crew/image-anousheh-ansari.webp";
 import pilotimg from "../public/assets/crew/image-victor-glover.webp";
 import specialimg from "../public/assets/crew/image-mark-shuttleworth.webp";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Crew = () => {
+  const espan = "espan";
+  const [activediv, setActivediv] = useState(0);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      if (activediv < 3) {
+        setActivediv(activediv + 1);
+      } else if (activediv === 3) {
+        setActivediv(0);
+      }
+    }, 5000);
+
+    return () => {
+      clearInterval(intervalId); // Clear the interval when the component unmounts
+    };
+  }, [activediv]); // Empty dependency arr
   const crewmembers = [
     {
       Role: "Commander",
@@ -26,7 +41,7 @@ const Crew = () => {
       Name: " Victor Glover",
       About:
         "     Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. ",
-      img: pilotimg ,
+      img: pilotimg,
     },
     {
       Role: " Mission Specialist",
@@ -40,12 +55,12 @@ const Crew = () => {
   return (
     <div className="crewrender">
       <h1>02 MEET YOUR CREW</h1>
-         <Carouselitem  crewmember={crewmembers} />;
-      <div>
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
+      <Carouselitem crewmember={crewmembers} />
+      <div style={{ display: "flex" }}>
+        <div className={`espan ${activediv === 0 ? "activeespan" : ""}`}></div>
+        <div className={`espan ${activediv === 1 ? "activeespan" : ""}`}></div>
+        <div className={`espan ${activediv === 2 ? "activeespan" : ""}`}></div>
+        <div className={`espan ${activediv === 3 ? "activeespan" : ""}`}></div>
       </div>
     </div>
   );
