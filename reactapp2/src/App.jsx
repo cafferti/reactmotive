@@ -12,7 +12,6 @@ function App() {
 
   //  location = useLocation();
   useEffect(() => {
-    console.log(location.pathname);
     if(location.pathname ===  '/'){
       setImageUrl(`url('/assets/home/background-home-desktop.jpg')`)
     }else if(location.pathname === '/des'){

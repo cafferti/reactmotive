@@ -1,11 +1,13 @@
 import Carouselitem from "./crewitem";
-import commanderimg from "../public/assets/crew/image-douglas-hurley.webp";
-import engineerimg from "../public/assets/crew/image-anousheh-ansari.webp";
-import pilotimg from "../public/assets/crew/image-victor-glover.webp";
-import specialimg from "../public/assets/crew/image-mark-shuttleworth.webp";
+import commanderimg from "/assets/crew/image-douglas-hurley.webp";
+import engineerimg from "/assets/crew/image-anousheh-ansari.webp";
+import pilotimg from "/assets/crew/image-victor-glover.webp";
+import specialimg from "/assets/crew/image-mark-shuttleworth.webp";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Crew = () => {
+  const location = useLocation()
   const espan = "espan";
   const [activediv, setActivediv] = useState(0);
   useEffect(() => {
@@ -54,7 +56,7 @@ const Crew = () => {
 
   return (
     <div className="crewrender">
-      <h1>02 MEET YOUR CREW</h1>
+      <h1> <span>02</span> MEET YOUR CREW</h1>
       <Carouselitem crewmember={crewmembers} />
       <div style={{ display: "flex" }}>
         <div className={`espan ${activediv === 0 ? "activeespan" : ""}`}></div>

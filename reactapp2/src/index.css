@@ -96,7 +96,7 @@ hr {
 
 .part1 {
   width: 120%;
-  padding-top: 4%;
+  /* padding-top: 4%; */
 }
 
 .part1 h1 {
@@ -171,7 +171,6 @@ hr {
 .App {
   height: 100vh;
   overflow: hidden;
-
 }
 
 .swipe {
@@ -183,9 +182,20 @@ hr {
 
 @keyframes heading {
   0% {
-    left: -100px;
+    left: -100px; opacity: 0.5;
   }
+  25%{
+    opacity: 0.5;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.25;
+  }
+  
   100% {
+    opacity: 0;
     left: -120%;
   }
 }
@@ -199,11 +209,19 @@ hr {
   margin-top: 80px;
 }
 .crewrender {
-
   margin-inline: 10%;
   color: aliceblue;
   margin-top: 5%;
 }
+
+.crewrender h1{
+  opacity: 0.9;
+}
+
+.crewrender h1 span, .marslogo span{
+  opacity: 0.5;
+}
+
 
 .slide {
   animation: slide;
@@ -216,47 +234,56 @@ hr {
     right: -120%;
     opacity: 0;
   }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
   100% {
     right: 0px;
-    opacity: 2;
+    opacity: 1;
   }
 }
 
-.about{
+.about {
   width: 50%;
 }
-.about h1{
+.about h1 {
   font-size: 2rem;
   letter-spacing: 0.5rem;
   padding-block: 2rem;
   text-transform: uppercase;
   opacity: 0.7;
 }
-.about h2{
+.about h2 {
   opacity: 0.5;
 
   text-transform: uppercase;
 }
 
-.about p{
+.about p {
   line-height: 2rem;
   padding-inline-end: 9rem;
   opacity: 0.6;
 }
-.sipe img{
+.sipe img {
   position: relative;
   top: -20px;
 }
 
-.espan{
- padding: 0.2rem;
- background-color: white;
- margin-inline: 1rem;
- border-radius: 1rem;
- z-index: 1;
- opacity: 0.3;
+.espan {
+  padding: 0.2rem;
+  background-color: white;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  z-index: 1;
+  opacity: 0.3;
 }
 
-.activeespan{
+.activeespan {
   opacity: 1;
 }
