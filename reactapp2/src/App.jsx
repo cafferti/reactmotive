@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Destination from "./destination";
 import Crew from "./Crew";
+import Techrender from "./techrender";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" element={<Explore />} />
             <Route path="/des" element={<Destination/>} />
             <Route path="/crew" element = {<Crew/> } />
+            <Route path="/tech" element = {<Techrender/>}/>
           </Routes>
         </div>
       </div>

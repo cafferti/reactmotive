@@ -287,3 +287,35 @@ hr {
 .activeespan {
   opacity: 1;
 }
+
+.techrender{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-inline-start: 10%;
+}
+
+.techrender  .h1{
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.techrender h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.techrender span{
+  opacity: 0.7;
+}
+
+.techsec{
+  display: flex
+  
+  ;
+  justify-content: center;
+  align-items: center;
+}
