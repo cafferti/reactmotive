@@ -49,13 +49,14 @@ body {
 .homepage {
   color: white;
   display: flex;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-inline: 15%;
 }
 .hometext h1 {
   font-size: 100px;
   margin-block: 0rem;
   font-weight: 100;
+  margin-block: 3rem;
 }
 
 .active {
@@ -82,7 +83,7 @@ hr {
   color: black;
   height: fit-content;
   padding: 8%;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-left: 25%;
   border-radius: 1000rem;
 }
@@ -100,7 +101,9 @@ hr {
 }
 
 .part1 h1 {
+  font-size: 30px;
   padding-top: 10%;
+  text-transform: uppercase;
 }
 
 .part2 {
@@ -297,6 +300,7 @@ hr {
 }
 
 .techrender  .h1{
+  letter-spacing: 2px;
   font-size: 40px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -306,6 +310,13 @@ hr {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.over{
+  margin-left: -4rem;
+  padding-top: 4rem;
+  font-size: 35px;
+  opacity: 0.8;
 }
 
 .techrender span{
@@ -319,3 +330,35 @@ hr {
   justify-content: center;
   align-items: center;
 }
+
+.technav div{
+  cursor: pointer;
+  padding:1rem;
+  margin: 30px;
+  border: solid white 1px;
+  border-radius: 2rem;
+}
+
+.technavactive{
+  color: black;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.technav{
+  height: 100%;
+  padding-top: 5rem;
+}
+
+.desc p{
+  padding-block: 1rem;
+  padding-right: 40%;
+  line-height: 1.5rem;
+  opacity: 0.8;
+}
+
+.techsec img{
+  margin-block: 1rem;
+  opacity: 0.9;
+}
+
