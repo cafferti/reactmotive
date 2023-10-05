@@ -27,10 +27,6 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-
-
-
-            
             <Route path="/" element={<Explore />} />
             <Route path="/des" element={<Destination/>} />
             <Route path="/crew" element = {<Crew/> } />
